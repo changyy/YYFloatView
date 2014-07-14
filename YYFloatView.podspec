@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.description = ''
   s.source_files = '{YYFloatView,YYMultipleButtonScrollView}/*.{h,m}'
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '4.0'
 end
