@@ -14,6 +14,8 @@
 @property (nonatomic, assign) int MaxColumnCount;
 @property (nonatomic, assign) int padding;
 @property (nonatomic, assign) int buttonPadding;
+@property (nonatomic, assign) bool buttonSkipConditionOn;
+@property (nonatomic, assign) int buttonSkipWhenTagValueIs;
 
 @property (nonatomic, strong) UIPageControl *pageControl;
 

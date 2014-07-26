@@ -64,6 +64,8 @@
         
         if ([self.buttonArray[i] isKindOfClass:[UIButton class]]) {
             UIButton *btn = self.buttonArray[i];
+            if (self.buttonSkipConditionOn && self.buttonSkipWhenTagValueIs == btn.tag)
+                continue;
             int row =  (i / self.MaxColumnCount) % self.MaxRowCount;
             int column = i % self.MaxColumnCount;
             page = i / ( self.MaxRowCount * self.MaxColumnCount );
